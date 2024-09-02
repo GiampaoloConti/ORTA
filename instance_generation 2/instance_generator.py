@@ -5,11 +5,11 @@ from datetime import datetime, timedelta
 
 
 
-with open('parameters.json', 'r') as file:
+with open('instance_generation 2/parameters.json', 'r') as file:
     parameters = json.load(file)['Parameters']
 
 
-with open("arcs_gen/init_arcs.json", "r") as file:
+with open("instance_generation 2/arcs_gen/init_arcs.json", "r") as file:
     data = json.load(file)
     cities = list({row['From'] for row in data['arcs']}.union({row['To'] for row in data['arcs']}))
 
