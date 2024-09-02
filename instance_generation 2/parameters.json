@@ -12,17 +12,18 @@
             "CapacityRange": [4, 8]
         },
         "CostCoefficients": {
-            "Alpha": 0.5,
-            "Beta": 0.3,
-            "Gamma1": 0.2,
-            "Gamma2": 0.4,
-            "Mu1": 0.1,
-            "Mu2": 0.2,
-            "Mu3": 0.3,
-            "Mu4": 0.4,
+            "Alpha": 1,
+            "Beta": 0.806,
+            "Gamma1": 1.106,
+            "Gamma2": 1.81,
+            "Mu1": 1.306,
+            "Mu2": 0.306,
+            "Mu3": 0.306,
+            "Mu4": 1.306,
+	        "H": 1,
             "Eta1": 0.5,
             "Eta2": 0.6,
-            "E": 1.0
+            "E": 999
         },
         "General": {
             "MaxTimeForRequests": "10:00:00",
